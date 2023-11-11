@@ -6,8 +6,8 @@
 
 ```js
 var y = "Hello Kai!";
-y.includes("hello"); // write the output in this comment
-y.repeat(10); // write the output in this comment
+y.includes("hello"); // true
+y.repeat(10); // hellohellohellohellohellohellohellohellohellohello
 ```
 
 4.
@@ -17,8 +17,8 @@ function square(i) {
     return i*i; // complete this code
 }
 
-square(2.5); // write the output in this comment!
-square("hello") // same here
+square(2.5); // 6.25
+square("hello") Nan
 ```
 
 5.
@@ -49,7 +49,7 @@ function numberString(i) {
   {
     while (i > 0)
     {
-      print(i-1);
+      console.log(i-1);
       i --;
     }
   }
